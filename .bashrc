@@ -3,10 +3,14 @@
 [ -z "$PS1" ] && return
 
 # Global
-if [ -f /etc/bashrc ]; then . /etc/bashrc fi
+if [ -f /etc/bashrc ]; then
+    . /etc/bashrc
+fi
 
 # Aliases
-if [ -f ~/.bash_aliases ]; then . ~/.bash_aliases fi
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
 
 # Promt
 PS1='\[\e[92m\]\u@\h\[\e[0m\]:\[\e[94m\]\W\[\e[0m\] \$ '
