@@ -9,7 +9,11 @@ alias grep="grep --color=auto"
 alias fgrep="fgrep --color=auto"
 alias egrep="egrep --color=auto"
 
+# diff
+alias diff="diff -y --color=auto"
+
 # Interactive mode
 alias mv="mv -i"
 alias cp="cp -i"
 alias ln="ln -i"
+
