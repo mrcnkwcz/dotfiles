@@ -12,6 +12,11 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+# Environment vars
+if [ -f ~/.env ]; then
+    source ~/.env
+fi
+
 # Promt
 PS1='\[\e[92m\]\u@\h\[\e[0m\]:\[\e[94m\]\W\[\e[0m\] \$ '
 
